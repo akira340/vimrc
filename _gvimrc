@@ -1,0 +1,6 @@
+scriptencoding utf-8
+set lines=50 columns=100
+set guifont=Ricty_Diminished:h12
+set mouse=a
+set nomousefocus
+set guioptions-=T
