@@ -1,5 +1,8 @@
 scriptencoding utf-8
 syntax on
+syntax reset
+
+:autocmd BufNewFile *.cpp 0r ~/.vim/templates/garakuta.cpp
 
 set encoding=utf-8
 set fenc=utf-8
@@ -28,6 +31,8 @@ Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree'
+Plug 'mattn/emmet-vim'
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
 
