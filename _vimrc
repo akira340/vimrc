@@ -16,11 +16,13 @@ set smartcase
 set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
+"set undodir=$HOME/vimfiles/undodir
 set undofile
 set incsearch
 set backspace=indent,eol,start
 
 call plug#begin('~/.vim/plugged')
+"call plug#begin('$HOME/vimfiles/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
